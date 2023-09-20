@@ -16,7 +16,7 @@ const data = [
     title: "Calculate shortest paht",
     github: "https://github.com/JhairAgila/Purchasing-System",
     demo: "https://lnkd.in/e44XgXNb",
-    youtube: '',
+    youtube: 'https://www.youtube.com/watch?v=QP4wrmEfuHo',
   },
   {
     id: 2,
