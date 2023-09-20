@@ -17,6 +17,7 @@ const data = [
     github: "https://github.com/JhairAgila/Purchasing-System",
     demo: "https://lnkd.in/e44XgXNb",
     youtube: 'https://www.youtube.com/watch?v=QP4wrmEfuHo',
+    tecnologies: 'HTML, CSS (Native-Base, Chackra-UI), React.js, React-Native, Node.js, MongoDB, '
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ const data = [
     github: "https://github.com/JhairAgila/Purchasing-System",
     demo: "",
     youtube: 'https://youtu.be/IoxUaD40SoU',
+    tecnologies: 'HTML, CSS(Styled-Components), React.js, Node.js, MongoDB',
   },
   {
     id: 3,
@@ -32,7 +34,8 @@ const data = [
     title: "Todo app",
     github: "https://github.com/JhairAgila/Todo-App",
     demo: "",
-    youtube: 'https://youtu.be/dJ05yeghIoo'
+    youtube: 'https://youtu.be/dJ05yeghIoo',
+    tecnologies: 'HTML, CSS, React.js',
   },
   {
     id: 4,
@@ -41,7 +44,8 @@ const data = [
     github:
       "https://github.com/JorgeDanielOrtega/Administracion-de-Empleados.github.io",
     demo: "",
-    youtube: 'https://www.youtube.com/watch?v=TrMmfgdZGTc'
+    youtube: 'https://www.youtube.com/watch?v=TrMmfgdZGTc',
+    tecnologies: 'Java con persistencia de datos local',
   },
   {
     id: 5,
@@ -50,6 +54,7 @@ const data = [
     github: "https://github.com/Marylin-Alvarado/Sistema-de-Cursos",
     demo: "",
     youtube: '',
+    tecnologies: 'HTML, CSS, Java, Vue',
   },
   {
     id: 6,
@@ -57,6 +62,7 @@ const data = [
     title: "Billing system",
     github: "https://github.com/JhairAgila/BillingSystem",
     youtube: 'https://www.youtube.com/watch?v=gXfZRjnRWP8',
+    tecnologies: 'Java, PostgreSQL, Hibernate',
   },
 ];
 
@@ -67,13 +73,14 @@ const Portfolio = () => {
         <h5>My recent work</h5>
         <h2>Portafolio</h2>
         <div className="container portfolio__container">
-          {data.map(({ id, image, title, github, demo, youtube }) => {
+          {data.map(({ id, image, title, github, demo, youtube, tecnologies }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
+                <p>{tecnologies}</p>
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="_blank">
                     GitHub

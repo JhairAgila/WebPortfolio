@@ -25,7 +25,11 @@
     height: 100%;
     width: 100%;
 }
-
+p{
+    font-size: 15px;
+    color: var(--color-light);
+    margin-bottom: 2rem;
+}
 .portfolio__item h3{
     margin: 1.3rem 0 2rem;
 }

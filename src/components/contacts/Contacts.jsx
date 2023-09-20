@@ -2,9 +2,13 @@ import React, {useRef} from "react";
 import './contacts.css';
 import {MdOutlineEmail} from 'react-icons/md';
 import emailjs from 'emailjs-com';
+import { toast } from 'react-hot-toast';
+
 const Contacts = () => {
     const form = useRef();
     const sendEmail = (e) => {
+    toast.success('Mensaje enviado con éxito');
+
     e.preventDefault();
 
     emailjs.sendForm('service_pzg5yz4', 'template_iqtrvmd', form.current, '0Uy0vhWj1uS_mQkDB')
