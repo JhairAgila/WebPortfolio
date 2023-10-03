@@ -6,6 +6,7 @@ import { FaJava, FaReact } from "react-icons/fa";
 import {LiaNodeJs} from 'react-icons/lia';
 import {DiMongodb} from 'react-icons/di';
 import {SiMysql} from 'react-icons/si';
+import {BiLogoTypescript} from 'react-icons/bi';
 
 
 const Experience = () => {
@@ -52,6 +53,13 @@ const Experience = () => {
                                 <small className="text-light">Experienced</small>
                             </div>
                         </article>
+                        <article className="experience__details">
+                            <BiLogoTypescript className="experience__details-icon"/>
+                            <div>
+                                <h4>Typescript</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div className="experience__backend">
@@ -75,6 +83,13 @@ const Experience = () => {
                             <SiMysql className="experience__details-icon"/>
                             <div>
                                 <h4>MySQL</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BiLogoPostgresql className="experience__details-icon"/>
+                            <div>
+                                <h4>PostgreSQL</h4>
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>
