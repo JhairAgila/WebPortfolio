@@ -6,10 +6,19 @@ import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.png";
+import IMGFITNESSAPP from "../../assets/FitnessApp.png";
 
 // DATA USED FOR PRESENT PROYECTS
 
 const data = [
+  {
+    id: 7,
+    image: IMGFITNESSAPP,
+    title: "Fitness application",
+    github: "https://github.com/JhairAgila/FitnessAplicatiion-Ts.git",
+    demo: "https://fitnessaplicatiion-ts.pages.dev/",
+    tecnologies: 'Typescript, React, Tailwind CSS',
+  },
   {
     id: 1,
     image: IMG1,
@@ -63,7 +72,7 @@ const data = [
     github: "https://github.com/JhairAgila/BillingSystem",
     youtube: 'https://www.youtube.com/watch?v=gXfZRjnRWP8',
     tecnologies: 'Java, PostgreSQL, Hibernate',
-  },
+  }
 ];
 
 const Portfolio = () => {
