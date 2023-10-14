@@ -26,7 +26,7 @@ const data = [
     github: "https://github.com/JhairAgila/Purchasing-System",
     demo: "https://lnkd.in/e44XgXNb",
     youtube: 'https://www.youtube.com/watch?v=QP4wrmEfuHo',
-    tecnologies: 'HTML, CSS (Native-Base, Chackra-UI), React.js, React-Native, Node.js, MongoDB'
+    tecnologies: 'HTML, CSS (Native-Base, Chackra-UI), React.js, React-Native, Node.js, MongoDB, Jest, Cypress'
   },
   {
     id: 2,

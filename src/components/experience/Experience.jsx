@@ -5,8 +5,9 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaJava, FaReact } from "react-icons/fa";
 import {LiaNodeJs} from 'react-icons/lia';
 import {DiMongodb} from 'react-icons/di';
-import {SiMysql} from 'react-icons/si';
+import {SiJest, SiMysql} from 'react-icons/si';
 import {BiLogoTypescript} from 'react-icons/bi';
+import { TbBrandCypress } from 'react-icons/tb'
 
 
 const Experience = () => {
@@ -94,6 +95,25 @@ const Experience = () => {
                             </div>
                         </article>
                         
+                    </div>
+                </div>
+                <div>
+                    <h3>Testing development</h3>
+                    <div className="experience__content">
+                        <article className="experience__details">
+                            <SiJest className="experience__details-icon"/>
+                            <div>
+                                <h4>Jest</h4>
+                                <small className="text-light">React-Testing-Library / Supertest</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <TbBrandCypress className="experience__details-icon"/>
+                            <div>
+                                <h4>Cypress</h4>
+                                <small className="text-light">End-to-End</small>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
