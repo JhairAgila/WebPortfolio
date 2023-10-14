@@ -37,9 +37,7 @@ const About = () => {
           </div>
 
           <p>
-            Soy Jhair Agila, un chico apasionado por el desarrollo de software,
-            con una gran versatilidad la cual me ha permitido adaptarme a varios 
-            entornos de trabajo.
+            I'm Jhair Agila, a guy passionate about software development, with a great versatility which has allowed me to adapt to various work environments.
           </p>
           <a href="#contact" className="btn btn-primary" >Let's Talk</a>
         </div>
