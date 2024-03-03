@@ -7,6 +7,7 @@ import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.png";
 import IMGFITNESSAPP from "../../assets/FitnessApp.png";
+import SistemaAutos from "../../assets/SistemaAutos.png";
 
 // DATA USED FOR PRESENT PROYECTS
 
@@ -18,6 +19,14 @@ const data = [
     github: "https://github.com/JhairAgila/FitnessAplicatiion-Ts.git",
     demo: "https://fitnessaplicatiion-ts.pages.dev/",
     tecnologies: 'Typescript, React, Tailwind CSS',
+  },
+  {
+    id: 8,
+    image: SistemaAutos,
+    title: "Car system",
+    github: "https://github.com/JhairAgila/SistemaAutos.git",
+    youtube: "https://www.youtube.com/watch?v=EdYiWxbfv4U",
+    tecnologies: 'Next.js, Node,.js Cookies, Mysql, Sequelize, Tailwind CSS',
   },
   {
     id: 1,
