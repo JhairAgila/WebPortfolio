@@ -32,7 +32,7 @@ const About = () => {
             <article className="about__card">
               <AiTwotoneFolderOpen className="about__icon"/>
               <h5>Projects</h5>
-              <small>6 Completed</small>
+              <small>9 Completed</small>
             </article>
           </div>
 

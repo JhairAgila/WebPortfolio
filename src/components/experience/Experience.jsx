@@ -3,6 +3,10 @@ import './experience.css';
 import { BiLogoCss3, BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaJava, FaReact } from "react-icons/fa";
+import { SiFlutter } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiMariadb } from "react-icons/si";
+
 import {LiaNodeJs} from 'react-icons/lia';
 import {DiMongodb} from 'react-icons/di';
 import {SiJest, SiMysql} from 'react-icons/si';
@@ -55,9 +59,23 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
+                            <SiNextdotjs  className="experience__details-icon"/>
+                            <div>
+                                <h4>Next.js</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
                             <BiLogoTypescript className="experience__details-icon"/>
                             <div>
                                 <h4>Typescript</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <SiFlutter  className="experience__details-icon"/>
+                            <div>
+                                <h4>Flutter</h4>
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>
@@ -77,21 +95,28 @@ const Experience = () => {
                             <DiMongodb className="experience__details-icon"/>
                             <div>
                                 <h4>MongoDB</h4>
-                                <small className="text-light">Intermediante</small>
+                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiMysql className="experience__details-icon"/>
                             <div>
                                 <h4>MySQL</h4>
-                                <small className="text-light">Intermediate</small>
+                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <BiLogoPostgresql className="experience__details-icon"/>
                             <div>
                                 <h4>PostgreSQL</h4>
-                                <small className="text-light">Intermediate</small>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <SiMariadb  className="experience__details-icon"/>
+                            <div>
+                                <h4>MariaDB</h4>
+                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         
