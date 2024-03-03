@@ -8,6 +8,7 @@ import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.png";
 import IMGFITNESSAPP from "../../assets/FitnessApp.png";
 import SistemaAutos from "../../assets/SistemaAutos.png";
+import NoticiasSystem from "../../assets/NoticiasSystem.png";
 
 // DATA USED FOR PRESENT PROYECTS
 
@@ -27,6 +28,14 @@ const data = [
     github: "https://github.com/JhairAgila/SistemaAutos.git",
     youtube: "https://www.youtube.com/watch?v=EdYiWxbfv4U",
     tecnologies: 'Next.js, Node,.js Cookies, Mysql, Sequelize, Tailwind CSS',
+  },
+  {
+    id: 9,
+    image: NoticiasSystem,
+    title: "Noticias system",
+    github: "https://github.com/JhairAgila/NoticiasMobileApp.git",
+    youtube: "https://www.youtube.com/watch?v=vHxHOgsMl4w",
+    tecnologies: 'Flutter, Node.js, Geolocator, Leaflet',
   },
   {
     id: 1,
