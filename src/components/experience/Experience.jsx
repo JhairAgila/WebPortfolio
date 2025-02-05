@@ -12,6 +12,7 @@ import {DiMongodb} from 'react-icons/di';
 import {SiJest, SiMysql} from 'react-icons/si';
 import {BiLogoTypescript} from 'react-icons/bi';
 import { TbBrandCypress } from 'react-icons/tb'
+import { SiNestjs } from "react-icons/si";
 
 
 const Experience = () => {
@@ -24,24 +25,10 @@ const Experience = () => {
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <AiFillHtml5 className="experience__details-icon"/>
+                            <BiLogoTypescript className="experience__details-icon"/>
                             <div>
-                                <h4>HTML</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BiLogoCss3 className="experience__details-icon"/>
-                            <div>
-                                <h4>CSS</h4>
-                                <small className="text-light">Intermediante</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <FaJava className="experience__details-icon"/>
-                            <div>
-                                <h4>Java</h4>
-                                <small className="text-light">Experienced</small>
+                                <h4>Typescript</h4>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">
@@ -52,23 +39,23 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <FaReact className="experience__details-icon"/>
+                            <SiNextdotjs  className="experience__details-icon"/>
                             <div>
-                                <h4>React.js</h4>
+                                <h4>Next.js</h4>
                                 <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <SiNextdotjs  className="experience__details-icon"/>
+                            <FaReact className="experience__details-icon"/>
                             <div>
-                                <h4>Next.js</h4>
+                                <h4>React.js</h4>
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BiLogoTypescript className="experience__details-icon"/>
+                            <FaJava className="experience__details-icon"/>
                             <div>
-                                <h4>Typescript</h4>
+                                <h4>Java</h4>
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>
@@ -89,6 +76,13 @@ const Experience = () => {
                             <div>
                                 <h4>Node.js</h4>
                                 <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <SiNestjs className="experience__details-icon"/>
+                            <div>
+                                <h4>Nest.js</h4>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">
