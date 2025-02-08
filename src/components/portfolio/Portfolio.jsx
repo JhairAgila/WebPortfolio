@@ -6,6 +6,7 @@ import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.png";
+import IMG10 from "../../assets/tradeo.png";
 import IMGFITNESSAPP from "../../assets/FitnessApp.png";
 import SistemaAutos from "../../assets/SistemaAutos.png";
 import NoticiasSystem from "../../assets/NoticiasSystem.png";
@@ -13,6 +14,13 @@ import NoticiasSystem from "../../assets/NoticiasSystem.png";
 // DATA USED FOR PRESENT PROYECTS
 
 const data = [
+  {
+    id: 13,
+    image: IMG10,
+    title: "Trader system",
+    github: "https://github.com/Online-Microservice-Store/store-launcher",
+    tecnologies: 'Typescript, Next, Node, NATS, Nest, Stripe, Leaflet, Material-UI',
+  },
   {
     id: 7,
     image: IMGFITNESSAPP,
