@@ -1,18 +1,20 @@
 import React from "react";
 import './experience.css';
 import { BiLogoCss3, BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi";
-import { AiFillHtml5 } from "react-icons/ai";
 import { FaJava, FaReact } from "react-icons/fa";
-import { SiFlutter } from "react-icons/si";
+import { SiAwsamplify, SiFlutter } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiMariadb } from "react-icons/si";
 
-import {LiaNodeJs} from 'react-icons/lia';
-import {DiMongodb} from 'react-icons/di';
+import {LiaAws, LiaNodeJs} from 'react-icons/lia';
+import { DiAws, DiMongodb} from 'react-icons/di';
 import {SiJest, SiMysql} from 'react-icons/si';
 import {BiLogoTypescript} from 'react-icons/bi';
 import { TbBrandCypress } from 'react-icons/tb'
 import { SiNestjs } from "react-icons/si";
+import { SiGoogle } from "react-icons/si";
+import { SiAzuredevops } from "react-icons/si";
+
 
 
 const Experience = () => {
@@ -116,6 +118,33 @@ const Experience = () => {
                         
                     </div>
                 </div>
+                <div>
+                    <h3>Cloud Providers</h3>
+                    <div className="experience__content">
+                        <article className="experience__details">
+                            <LiaAws className="experience__details-icon"/>
+                            <div>
+                                <h4>AWS</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <SiAzuredevops className="experience__details-icon"/>
+                            <div>
+                                <h4>Azure</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <SiGoogle className="experience__details-icon"/>
+                            <div>
+                                <h4>GCP</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
                 <div>
                     <h3>Testing development</h3>
                     <div className="experience__content">

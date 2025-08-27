@@ -20,6 +20,8 @@ const data = [
     title: "Trader system",
     github: "https://github.com/Online-Microservice-Store/store-launcher",
     tecnologies: 'Typescript, Next, Node, NATS, Nest, Stripe, Leaflet, Material-UI',
+    cloud: 'Google Cloud Platform (GKE, Cloud build), Microsoft Azure (AKS)',
+    pipelines: 'Synk, CodeQL, OWASP ZAP, License Finder'
   },
   {
     id: 7,
@@ -28,9 +30,10 @@ const data = [
     github: "https://github.com/JhairAgila/FitnessAplicatiion-Ts.git",
     demo: "https://fitnessaplicatiion-ts.pages.dev/",
     tecnologies: 'Typescript, React, Tailwind CSS',
+    cloud: 'Microsoft Azure (Static Web Apps)'
   },
   {
-    id: 8,
+    id: 8,  
     image: SistemaAutos,
     title: "Car system",
     github: "https://github.com/JhairAgila/SistemaAutos.git",
@@ -108,7 +111,7 @@ const Portfolio = () => {
         <h5>My recent work</h5>
         <h2>Portafolio</h2>
         <div className="container portfolio__container">
-          {data.map(({ id, image, title, github, demo, youtube, tecnologies }) => {
+          {data.map(({ id, image, title, github, demo, youtube, tecnologies, cloud, pipelines }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -116,6 +119,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <p>{tecnologies}</p>
+                {cloud ?  <p> Despliegue: {cloud} </p>  :''}
+                {pipelines ?  <p> Análisis de seguridad: {pipelines} </p>  :''}
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="_blank">
                     GitHub
