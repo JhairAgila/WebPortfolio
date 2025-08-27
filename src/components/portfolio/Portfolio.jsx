@@ -7,6 +7,7 @@ import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.png";
 import IMG10 from "../../assets/tradeo.png";
+import IMG11 from "../../assets/requifeed.png";
 import IMGFITNESSAPP from "../../assets/FitnessApp.png";
 import SistemaAutos from "../../assets/SistemaAutos.png";
 import NoticiasSystem from "../../assets/NoticiasSystem.png";
@@ -22,6 +23,14 @@ const data = [
     tecnologies: 'Typescript, Next, Node, NATS, Nest, Stripe, Leaflet, Material-UI',
     cloud: 'Google Cloud Platform (GKE, Cloud build), Microsoft Azure (AKS)',
     pipelines: 'Synk, CodeQL, OWASP ZAP, License Finder'
+  },
+  {
+    id: 14,
+    image: IMG11,
+    title: "Requifeed",
+    github: "https://github.com/DavidIntriago/RequiFeed/tree/Desarrollo",
+    tecnologies: 'Typescript, Next, Node, Nest, Material-UI, Jest',
+    calidad: 'Unit tests and integration tests, Test cases or checklists for each user story´s acceptance criteria, Error matrix, Quality report'
   },
   {
     id: 7,
@@ -111,7 +120,7 @@ const Portfolio = () => {
         <h5>My recent work</h5>
         <h2>Portafolio</h2>
         <div className="container portfolio__container">
-          {data.map(({ id, image, title, github, demo, youtube, tecnologies, cloud, pipelines }) => {
+          {data.map(({ id, image, title, github, demo, youtube, tecnologies, cloud, pipelines, calidad }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -119,8 +128,9 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <p>{tecnologies}</p>
-                {cloud ?  <p> Despliegue: {cloud} </p>  :''}
-                {pipelines ?  <p> Análisis de seguridad: {pipelines} </p>  :''}
+                {cloud ?  <p> Deployment: {cloud} </p>  :''}
+                {pipelines ?  <p> Security: {pipelines} </p>  :''}
+                {calidad ?  <p> Quality: {calidad} </p>  :''}
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="_blank">
                     GitHub
